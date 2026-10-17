@@ -44,5 +44,6 @@ Semana 3 (completo y defendible): 14. Menú inicial y selección de equipo. 15. 
 
 ## Progreso
 - [x] Paso 1: proyecto creado en SharpDevelop, ventana negra de 960x640 con título "PokeElemental", x86 configurado. Git hecho (2026-10-16): `.gitignore`, `git init -b main` en la raíz, primer commit y push a https://github.com/Fanfitax/PokeElemental. El usuario nunca había usado Git: ir muy despacio, un comando a la vez, explicando cada uno.
-- [ ] Paso 1: falta responder las 4 preguntas de defensa.
+- [x] Paso 1: preguntas de defensa respondidas y corregidas (x86 = el depurador de SharpDevelop 4.4 no soporta 64 bits).
+- [ ] Paso 2 en curso (2026-10-17): hecho y subido `Tipo.cs` (enum). Hecha y revisada `Criatura.cs` (campos privados, constructor de 3 parámetros, propiedades solo-get; sin `abstract` todavía, se añade en herencia). Falta: la prueba temporal con `MessageBox.Show` en `MainForm.cs` (crear `new Criatura("Prueba", Tipo.Fuego, 50)` y mostrar `VidaActual`, debe salir 50; luego borrarla), commit del trozo 2, y los métodos `RecibirDano(int)` y `Curar(int)` (la vida no baja de 0 ni supera la máxima). Después: preguntas de defensa del paso 2.
 - [ ] Pasos 2 a 19.
