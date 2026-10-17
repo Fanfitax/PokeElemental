@@ -43,6 +43,6 @@ Semana 2 (se ve como Esmeralda): 7. Escena dibujada. 8. Cuadro de texto con máq
 Semana 3 (completo y defendible): 14. Menú inicial y selección de equipo. 15. Guardado `.txt`, estadísticas y ranking. 16. Sonidos y efectos. 17. Pulido y pruebas. 18-19. Guía de defensa y simulacro de preguntas.
 
 ## Progreso
-- [x] Paso 1 (parcial): proyecto creado en SharpDevelop, ventana negra de 960x640 con título "PokeElemental" funcionando, x86 configurado.
-- [ ] Paso 1 pendiente: crear `.gitignore` en la raíz del repo, `git init -b main`, primer commit, crear el repo `PokeElemental` en GitHub (vacío) y `git push -u origin main`. Responder las 4 preguntas de defensa del paso 1.
+- [x] Paso 1: proyecto creado en SharpDevelop, ventana negra de 960x640 con título "PokeElemental", x86 configurado. Git hecho (2026-10-16): `.gitignore`, `git init -b main` en la raíz, primer commit y push a https://github.com/Fanfitax/PokeElemental. El usuario nunca había usado Git: ir muy despacio, un comando a la vez, explicando cada uno.
+- [ ] Paso 1: falta responder las 4 preguntas de defensa.
 - [ ] Pasos 2 a 19.
