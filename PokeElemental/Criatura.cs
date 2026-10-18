@@ -43,5 +43,21 @@ namespace PokeElemental
 		{
 			get{ return vidaActual;}
 		}
+		public void RecibirDano(int cantidad)
+		{
+			vidaActual-=cantidad;
+			if(vidaActual<0)
+			{
+				vidaActual=0;
+			}
+		}
+		public void Curar(int cantidad)
+		{
+			vidaActual+=cantidad;
+			if(vidaActual>vidaMaxima)
+			{
+				vidaActual=vidaMaxima;
+			}
+		}
 	}
 }
