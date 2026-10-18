@@ -48,7 +48,7 @@ namespace PokeElemental
 
     public void GastarPP()
     {
-    	if(ppActual<0)
+    	if(ppActual>0)
     	{
     		ppActual-=1;
     	}
