@@ -27,6 +27,7 @@ namespace PokeElemental
 			Text = "PokeElemental";
             BackColor = System.Drawing.Color.Black;
             ClientSize = new System.Drawing.Size(960, 640);
+            
 
 			
 			//
