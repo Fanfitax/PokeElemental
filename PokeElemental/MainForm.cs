@@ -27,9 +27,18 @@ namespace PokeElemental
 			Text = "PokeElemental";
             BackColor = System.Drawing.Color.Black;
             ClientSize = new System.Drawing.Size(960, 640);
-            
+            Criatura a = new Criatura("Aitana", Tipo.Fuego, 100);
+            Criatura agua = new Criatura("Mia", Tipo.Agua, 100);
+            Criatura aire = new Criatura("Brisa", Tipo.Aire, 100);
+            MovimientoDano llamarada = new MovimientoDano("Llamarada", Tipo.Fuego, 10, 40);
 
-			
+            MessageBox.Show(llamarada.Ejecutar(a, agua));
+            MessageBox.Show(llamarada.Ejecutar(a, aire));
+            MessageBox.Show(llamarada.Ejecutar(a, a));
+            MessageBox.Show(agua.VidaActual + " / " + aire.VidaActual + " / " + a.VidaActual);
+
+
+            
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//

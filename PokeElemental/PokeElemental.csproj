@@ -71,9 +71,11 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Movimiento.cs" />
+    <Compile Include="MovimientoCuracion.cs" />
     <Compile Include="MovimientoDano.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TablaTipos.cs" />
     <Compile Include="Tipo.cs" />
   </ItemGroup>
   <ItemGroup>

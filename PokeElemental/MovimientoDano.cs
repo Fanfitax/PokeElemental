@@ -31,9 +31,22 @@ namespace PokeElemental
 
     public override string Ejecutar(Criatura usuario, Criatura objetivo)
     {
-    	objetivo.RecibirDano(poder);
-    	return usuario.Nombre + " uso " + Nombre + ". !Hizo " + poder.ToString() + " De dano!";
-    		
+    	double multiplicador = TablaTipos.ObtenerMultiplicador(Tipo, objetivo.Tipo);
+    	int dano = (int)(poder * multiplicador);
+    	objetivo.RecibirDano(dano);
+    	string mensaje = usuario.Nombre + " uso " + Nombre + ". !Hizo " + dano.ToString() + " de dano!";
+    	if(multiplicador> 1)
+    	{
+    		return mensaje += " Es muy efectivo!";
+    	}
+    	if (multiplicador<1)
+    	{
+    		return mensaje += " No es muy efectivo!";
+    	}
+    	else if
+    	{
+    	return mensaje;
+    	}
     }
 }
 }
